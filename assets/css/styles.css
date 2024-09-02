@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerPadre {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  max-width: 50%;
+}
+
+.containerImagenes {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 30px;
+}
+
+.filaImagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  max-width: 50%;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 175px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  width: 25%;
+  height: 25%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.containerSelect {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 50px;
+  padding-bottom: 70px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.select-container {
+  margin: 10px 0;
+}
+
+.btn-ingresar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
